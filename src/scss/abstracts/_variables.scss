@@ -1,0 +1,32 @@
+$color-white: #fff;
+$color-pink-light: #FFDEF3;
+$color-pink: #FF61BE;
+$color-blue: #3B55CE;
+$color-burgundy-dark: #35212A;
+
+$font-default: 'Space Mono', monospace;
+$font-heading: 'BioRhyme', serif;
+
+$base: 62.5%;
+
+$size-xx-small: .676rem;
+$size-x-small: .9rem;
+$size-small: 1.2rem;
+$size-base: 1.6rem;
+$size-large: 2.2rem;
+$size-x-large: 2.8rem;
+$size-xx-large: 3.7rem;
+$size-xxx-large: 5rem;
+$size-xxxx-large: 6.6rem;
+
+$time-duration-default: 300ms;
+$time-duration-quickly: 80ms;
+
+$button-font-size: 1.4em;
+$button-color: $color-white;
+$button-background-color: darken($color-blue, 20%);
+$button-inset-spacing: .5em 2em;
+$button-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+$button-hover-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+
+$button-secondary-background-color: $color-pink;

@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <j-button primary>Primary button</j-button>
+    <j-button primary>Secondary button</j-button>
+    <j-button primary outline>PRimary outline</j-button>
+    <j-button secondary outline>Secondary outline</j-button>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+import JButton from "../components/ui/JButton";
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    JButton
   }
 }
 </script>

@@ -1,0 +1,45 @@
+.j-button {
+  @include inline-space(0.5em);
+  font-size: $button-font-size;
+  color: $button-color;
+  box-shadow: $button-box-shadow;
+  padding: $button-inset-spacing;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+}
+
+.j-button.primary {
+  background-color: $button-background-color;
+  &:hover {
+    box-shadow: $button-hover-box-shadow;
+    background-color: lighten($button-background-color, 10%) ;
+  }
+
+  &:active {
+    background-color: lighten($button-background-color, 10%) ;
+  }
+
+  &:focus {
+    background-color: lighten($button-background-color, 5%) ;
+  }
+}
+
+.j-button.secondary {
+  background-color: $button-secondary-background-color;
+  &:hover {
+    box-shadow: $button-hover-box-shadow;
+    background-color: lighten($button-secondary-background-color, 10%) ;
+  }
+
+  &:active {
+    background-color: lighten($button-secondary-background-color, 10%) ;
+  }
+
+  &:focus {
+    background-color: lighten($button-secondary-background-color, 5%) ;
+  }
+}
